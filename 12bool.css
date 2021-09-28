@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LAYOUT */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row{   /* questa rappresenta la riga che conterrà le colonne che seguono nel framework */
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col{   /* questa colonna si adatterà al contenuto fino a raggiungimento della width del container */
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+.col_1{
+    width: calc((100% / 12) * 1); /* questa colonna occuperà 1/12 del layout */
+}
+.col_2{
+    width: calc((100% / 12) * 2); /* questa colonna occuperà 2/12 del layout */
+}
+.col_3{
+    width: calc((100% / 12) * 3); /* questa colonna occuperà 3/12 del layout */
+}
+.col_4{
+    width: calc((100% / 12) * 4); /* questa colonna occuperà 4/12 del layout */
+}
+.col_5{
+    width: calc((100% / 12) * 5); /* questa colonna occuperà 5/12 del layout */
+}
+.col_6{
+    width: 50%; /* questa colonna occuperà 6/12 del layout */
+}
+.col_7{
+    width: calc((100% / 12) * 7); /* questa colonna occuperà 7/12 del layout */
+}
+.col_8{
+    width: calc((100% / 12) * 8); /* questa colonna occuperà 8/12 del layout */
+}
+.col_9{
+    width: calc((100% / 12) * 9); /* questa colonna occuperà 9/12 del layout */
+}
+.col_10{
+    width: calc((100% / 12) * 10); /* questa colonna occuperà 10/12 del layout */
+}
+.col_11{
+    width: calc((100% / 12) * 11); /* questa colonna occuperà 11/12 del layout */
+}
+.col_12{
+    width: 100%; /* questa colonna occuperà 12/12 del layout */
+}
+
+
+.col_offset_1{  /* questa classe sposterà il contenuto a destra di 1 colonna */
+    margin-left: calc((100% / 12) * 1); 
+}
+.col_offset_2{  /* questa classe sposterà il contenuto a destra di 2 colonne */
+    margin-left: calc((100% / 12) * 2);
+}
+.col_offset_3{  /* questa classe sposterà il contenuto a destra di 3 colonne */
+    margin-left: calc((100% / 12) * 3);
+}
+.col_offset_4{  /* questa classe sposterà il contenuto a destra di 4 colonne */
+    margin-left: calc((100% / 12) * 4);
+}
+.col_offset_5{ /* questa classe sposterà il contenuto a destra di 5 colonne */
+    margin-left: calc((100% / 12) * 5);
+}
+.col_offset_6{ /* questa classe sposterà il contenuto a destra di 6 colonne */
+    margin-left: 50%;
+}
+.col_offset_7{ /* questa classe sposterà il contenuto a destra di 7 colonne */
+    margin-left: calc((100% / 12) * 7);
+}
+.col_offset_8{ /* questa classe sposterà il contenuto a destra di 8 colonne */
+    margin-left: calc((100% / 12) * 8);
+}
+.col_offset_9{ /* questa classe sposterà il contenuto a destra di 9 colonne */
+    margin-left: calc((100% / 12) * 9);
+}
+.col_offset_10{ /* questa classe sposterà il contenuto a destra di 10 colonne */
+    margin-left: calc((100% / 12) * 10);
+}
+.col_offset_11{ /* questa classe sposterà il contenuto a destra di 11 colonne */
+    margin-left: calc((100% / 12) * 11);
+}
