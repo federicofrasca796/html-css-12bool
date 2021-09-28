@@ -1,5 +1,14 @@
-[class^="col_"]{
+[class*="col_"]{
     height: 200px;
     background-color: pink;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nest > [class*="col_"]{
+    background-color: palevioletred;
+    height: 100%;
+    border: 1px solid white;
 }
